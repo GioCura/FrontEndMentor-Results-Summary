@@ -81,6 +81,7 @@ main,
 
 main,
 .card__result,
+.card__criterion,
 .card__criterion div {
   align-items: center;
 }
