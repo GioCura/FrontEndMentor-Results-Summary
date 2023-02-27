@@ -24,7 +24,7 @@
     border-radius: 30px;
     background-color: white;
 /*     filter: drop-shadow(3px 7px 7px hsla(241, 72%, 46%, 0.1)); */
-    box-shadow: 3px 7px 7px hsla(241, 72%, 46%, 0.1);
+    box-shadow: 5px 10px 10px hsla(241, 72%, 46%, 0.1);
   }
 
   .card__result {
@@ -35,6 +35,10 @@
 
   .card__result h1 {
     font-size: 1.5rem;
+  }
+  
+  .card__total {
+    transform: translateY(-5px);
   }
 
   .card__grade {
