@@ -102,6 +102,7 @@ main,
   color: var(--lavender);
 }
 
+.card__grade,
 .card__criterion div,
 .card__button {
   font-weight: 700;
