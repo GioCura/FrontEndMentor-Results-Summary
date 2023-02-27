@@ -24,7 +24,7 @@
     border-radius: 30px;
     background-color: white;
 /*     filter: drop-shadow(3px 7px 7px hsla(241, 72%, 46%, 0.1)); */
-    box-shadow: 5px 10px 10px hsla(241, 72%, 46%, 0.1);
+    box-shadow: 5px 10px 40px hsl(241deg 72% 46% / 10%);
   }
 
   .card__result {
