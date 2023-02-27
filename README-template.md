@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](assets/images/screenshot-desktop.pngscreenshot.png)
+![Desktop](assets/images/screenshot-desktop.png)
 ![Desktop in Active State](assets/images/screenshot-desktop-active.png)
 ![Mobile](assets/images/screenshot-mobile.png)
 
