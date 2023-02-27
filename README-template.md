@@ -93,8 +93,6 @@ Users should be able to:
 
 - Frontend Mentor - [@GioCura](https://www.frontendmentor.io/profile/GioCura)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
 - Thanks to [Max K Coding](https://www.youtube.com/@maxkcoding3887) on YouTube for his [video tutorial](https://www.youtube.com/watch?v=p6aa6M8mbsY) on adding transition animatoins to elements with linear gradients!
