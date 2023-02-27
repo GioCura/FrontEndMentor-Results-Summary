@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://gc9-resultssummary.com)
+- Live Site URL: [Live Site](https://gc9-resultssummary.netlify.app)
 
 ## My process
 
