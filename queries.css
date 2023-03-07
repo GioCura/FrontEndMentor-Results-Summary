@@ -11,8 +11,13 @@
 }
 
 @media (min-width: 700px) {
+  body {
+    justify-content: center;
+    align-items: center;
+  }
+
   main {
-    height: 90%;
+    margin-bottom: 4rem;
   }
 
   .card {
@@ -23,7 +28,6 @@
     overflow: hidden;
     border-radius: 30px;
     background-color: white;
-/*     filter: drop-shadow(3px 7px 7px hsla(241, 72%, 46%, 0.1)); */
     box-shadow: 5px 10px 40px hsl(241deg 72% 46% / 10%);
   }
 
@@ -36,7 +40,7 @@
   .card__result h1 {
     font-size: 1.5rem;
   }
-  
+
   .card__total {
     transform: translateY(-5px);
   }
@@ -75,10 +79,6 @@
   .card__button {
     font-size: 1.2rem;
     padding: 1rem;
-  }
-
-  .attribution {
-    height: 10%;
   }
 }
 
