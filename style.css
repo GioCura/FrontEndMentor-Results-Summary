@@ -13,6 +13,8 @@ body {
   height: 100%;
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -55,7 +57,6 @@ button {
   --circleblue2: hsla(241, 72%, 46%, 0);
 }
 
-main,
 .card,
 .card__result,
 .card__result div,
@@ -79,7 +80,6 @@ main,
   font-weight: 800;
 }
 
-main,
 .card__result,
 .card__criterion,
 .card__criterion div {
@@ -102,7 +102,6 @@ main,
   color: var(--lavender);
 }
 
-.card__grade,
 .card__criterion div,
 .card__button {
   font-weight: 700;
@@ -134,8 +133,7 @@ main,
 }
 
 main {
-  /* height: 100%; */
-  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -143,23 +141,23 @@ main {
 }
 
 .card__result {
-  border-radius: 0 0 30px 30px;
   padding: 2rem 0 4rem 0rem;
+  border-radius: 0 0 30px 30px;
 }
 
 .card__result h1 {
+  margin-bottom: 2rem;
   font-size: 1.7rem;
   word-spacing: 0.15rem;
   opacity: 0.8;
-  margin-bottom: 2rem;
 }
 
 .card__result div {
-  background: linear-gradient(var(--circleblue1), var(--circleblue2) 95%);
-  border-radius: 100px;
   width: 13rem;
   padding: 2.5rem;
+  border-radius: 100px;
   margin-bottom: 2rem;
+  background: linear-gradient(var(--circleblue1), var(--circleblue2) 95%);
 }
 
 .card__score {
@@ -177,8 +175,8 @@ main {
 }
 
 .card__remark {
-  font-size: 1.5rem;
   padding: 0px 6rem 0;
+  font-size: 1.5rem;
 }
 
 .card__summary {
@@ -186,8 +184,8 @@ main {
 }
 
 .card__summary h2 {
-  font-size: 1.9rem;
   margin-bottom: 2.4rem;
+  font-size: 1.9rem;
 }
 
 .card__criteria {
@@ -215,31 +213,31 @@ main {
 }
 
 .card__criterion--reaction {
-  background-color: var(--redbg);
   color: var(--red);
+  background-color: var(--redbg);
 }
 
 .card__criterion--memory {
-  background-color: var(--yellowbg);
   color: var(--yellow);
+  background-color: var(--yellowbg);
 }
 
 .card__criterion--verbal {
-  background-color: var(--tealbg);
   color: var(--teal);
+  background-color: var(--tealbg);
 }
 
 .card__criterion--visual {
-  background-color: var(--bluebg);
   color: var(--blue);
+  background-color: var(--bluebg);
 }
 
 .card__button {
   width: 100%;
-  background-color: var(--darkblue);
-  color: #fff;
-  font-size: 1.8rem;
   padding: 2rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: var(--darkblue);
 }
 
 .card__button::before {
@@ -250,8 +248,8 @@ main {
   right: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
 
+  opacity: 0;
   transition: all 0.3s;
 }
 
@@ -260,8 +258,8 @@ main {
 }
 
 .attribution {
+  padding-bottom: 4rem;
   font-size: 1.1rem;
-  padding: 2rem 0;
 }
 
 .attribution a {
